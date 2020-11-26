@@ -1,0 +1,234 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+   .first_img{
+       display: none;
+   }
+   .person_img img{
+    display: none !important;
+}
+
+.second_img{
+    /* display: none; */
+}
+.service{
+    background-color: #F26968;
+}
+.box_control{  
+    margin-bottom: 30px;
+    min-height: 280px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #F26968;
+    color:  #E4E4E4;
+}
+.devider:before,
+.devider:after {
+    content: "______________________";
+    color: #FE9000; 
+    font-size: 10px;
+    position: relative;
+    bottom: 6px;
+}
+.person_img img{
+    display: none;
+}
+.custom_second_img{
+    text-align: center;
+    margin-top: 0px;
+}
+.first_text2{
+    text-align: center;
+   color: #EBEBEC;
+   margin-top: 50px;
+
+}
+.text_section{
+    padding: 50px 0px;
+}
+.banner_content{
+    margin-top: 0px;
+}
+.banner_content h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+ .custom_button{
+    margin-left: 0px ;
+}
+
+.custom_button2{
+    padding: 2px 7px ;
+}
+.banner_content h1{
+    font-size: 13px;
+    font-weight: bold;
+} 
+.para1{
+    font-size: 10px ;
+}
+.para2{
+    font-size: 12px ;
+} 
+.common_list{
+    text-align: right !important;
+}
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .first_img{
+        display: none;
+    }
+    .service{
+        background-color: #F26968;
+    }
+    .second_img{
+        /* display: none; */
+    }
+    .box_control{
+        min-height: 200px;
+        margin-bottom: 30px;
+        padding: 10px 35px;
+        text-align: center;
+        background-color: #F26968;
+        color:  #E4E4E4;
+    }
+    .devider:before,
+.devider:after {
+    content: "______________________";
+    color: #FE9000; 
+    font-size: 15px;
+    position: relative;
+    bottom: 6px;
+}
+
+.person_img img{
+    display: none;
+}
+.custom_second_img{
+    text-align: center;
+    margin-top: 0px;
+} 
+.first_text2{
+    text-align: center;
+   color: #EBEBEC;
+   margin-top: 150px;
+}
+}
+/* .banner_content{
+    margin-top: 0px;
+} */
+ /* .custom_button{
+    margin-left: 0px ;
+}
+.custom_button2{
+    padding: 4px 25px;
+}
+.banner_content h1{
+    font-size: 14px;
+    font-weight: bold;
+} 
+.para1{
+    font-size: 10px;
+}
+.para2{
+    font-size: 12px;
+} 
+.common_list{
+    text-align: right !important;
+} */
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .first_img{
+        /* display: none; */
+    }
+    .second_img{
+        /* display: none; */
+        margin-top: 0px;
+    }
+    .service{
+        background-color: #F26968;
+    }
+    .box_control{
+        min-height: 530px;
+        padding: 10px 35px;
+        text-align: center;
+        background-color: #F26968;
+        color:  #E4E4E4;
+    }
+    .devider:before,
+.devider:after {
+    content: "______________________";
+    color: #FE9000; 
+    font-size: 15px;
+    position: relative;
+    bottom: 6px;
+}
+.first_text2{
+    text-align: center;
+   color: #EBEBEC;
+   margin-top: 150px;
+}
+.custom_button4{
+    font-size: 15px;
+} 
+
+/* .banner_content h1{
+    font-size: 27.5px;
+    font-weight: bold;
+} 
+.para1{
+    font-size: 18px;
+}
+.para2{
+    font-size: 1rem;
+}
+.banner_content {
+    margin-top: 10px;
+}
+.custom_button2 {
+    padding: 7px 35px;
+} */
+
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ .first_text2{
+     text-align: right;
+     /* text-align: center; */
+    color: #EBEBEC;
+    margin-top: 150px;
+ }
+ /* .banner_content h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+} 
+.para1{
+    font-size: 18px;
+}
+.para2{
+    font-size: 1rem;
+}
+.banner_content {
+    margin-top: 80px;
+}
+.custom_button2 {
+    padding: 7px 35px;
+} */
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  
+    .first_text2{
+        text-align: center;
+       color: #EBEBEC;
+       margin-top: 150px;
+    }
+
+}
